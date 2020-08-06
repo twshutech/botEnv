@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../original-coast-clothing"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "bndckplfkckfjbgmgnkkemkdpafdablg/2.1_0"
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2
+	}
+}

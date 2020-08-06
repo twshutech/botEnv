@@ -1,0 +1,25 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Provides iframe information when detected on the current page, and allows them to be deleted.",
+   "homepage_url": "http://www.pericror.com/software/iframe-detector-chrome-extension/",
+   "icons": {
+      "128": "icon-128.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcKHTaFKM4H+CFbrr+2wxVxu6b4cKnD50tAsBRNq2fzHlYysLVHnDe8w8v1umtWNBzVZuXo+rI1uiUKsGu1xdHJBfE2pneVM9e/Qs1JaSND31ekWBImIMxAAhB1KJ2cFMIGRc0adS2dY3V4aG5fLy9ve/7nc08lS1MQKlDVINVBwIDAQAB",
+   "manifest_version": 2,
+   "name": "Iframe Detector",
+   "permissions": [ "http://*/*", "https://*/*", "contextMenus", "activeTab"],
+   "short_name": "IframeDetect",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.1"
+}
